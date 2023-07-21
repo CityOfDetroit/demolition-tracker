@@ -1,0 +1,21 @@
+{
+  "name": "url-params",
+  "label": "URL Params",
+  "type": "widget",
+  "version": "1.11.0",
+  "exbVersion": "1.11.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "author": "Gavin Rehkemper, Esri Professional SErvices",
+  "description": "Take URL params and do stuff with them.",
+  "copyright": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 100,
+    "height": 100
+  }
+}
