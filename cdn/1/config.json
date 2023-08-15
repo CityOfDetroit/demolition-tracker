@@ -629,15 +629,15 @@
             "heightMode": "ratio",
             "aspectRatio": 1,
             "vCenter": false,
-            "hCenter": false
+            "hCenter": true
           },
           "bbox": {
-            "left": "6.9%",
-            "top": "12.1%",
+            "left": "50%",
+            "top": "4.7%",
             "width": "104px",
             "height": "104px",
-            "right": "349px",
-            "bottom": "64.1%"
+            "right": "356px",
+            "bottom": "77.2%"
           },
           "widgetId": "widget_18",
           "isPending": false
@@ -647,23 +647,23 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "left": true,
-              "right": false,
+              "left": false,
+              "right": true,
               "bottom": true,
               "top": false,
               "width": "CUSTOM"
             },
             "vCenter": false,
-            "hCenter": false,
+            "hCenter": true,
             "lockParent": false
           },
           "bbox": {
-            "left": "27.0%",
-            "top": "20.8%",
+            "left": "50%",
+            "top": "31.6%",
             "width": "312px",
             "height": "70px",
-            "right": "43px",
-            "bottom": "63.3%"
+            "right": "249px",
+            "bottom": "56.2%"
           },
           "widgetId": "widget_19",
           "isPending": false
@@ -687,11 +687,11 @@
             "lockLayout": false
           },
           "bbox": {
-            "left": "6.9%",
+            "left": "5.7%",
             "top": "43.3%",
             "width": "88.6%",
             "height": "44.1%",
-            "right": "4.5%",
+            "right": "5.7%",
             "bottom": "55px"
           },
           "widgetId": "widget_20",
@@ -702,23 +702,23 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "left": true,
-              "right": false,
+              "left": false,
+              "right": true,
               "bottom": true,
               "top": false,
               "width": "CUSTOM"
             },
             "vCenter": false,
-            "hCenter": false,
+            "hCenter": true,
             "lockParent": false
           },
           "bbox": {
-            "left": "32.9%",
-            "top": "14.4%",
+            "left": "50%",
+            "top": "25.9%",
             "width": "254px",
             "height": "30px",
-            "right": "72px",
-            "bottom": "78.8%"
+            "right": "285px",
+            "bottom": "68.9%"
           },
           "widgetId": "widget_21",
           "isPending": false
@@ -1000,7 +1000,11 @@
           "canNavigation": true,
           "canBaseMap": true,
           "canLayers": true,
-          "canLocate": false
+          "canLocate": false,
+          "canScaleBar": true,
+          "canSelect": false,
+          "canSelectState": false,
+          "canFullScreen": false
         },
         "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_2",
@@ -1013,8 +1017,8 @@
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -9249544.834898107,
-              "y": 5215022.047987848
+              "x": -9249544.834898105,
+              "y": 5215022.047987849
             }
           },
           "extent": {
@@ -1022,14 +1026,15 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -9265520.173809687,
-            "ymin": 5189453.86202649,
-            "xmax": -9233569.495986527,
-            "ymax": 5240590.233949205
+            "xmin": -9298464.533000551,
+            "ymin": 5190676.854479054,
+            "xmax": -9200625.136795659,
+            "ymax": 5239367.241496645
           },
           "rotation": 0,
           "viewType": "2d"
-        }
+        },
+        "layoutIndex": 0
       },
       "id": "widget_1",
       "layouts": {
@@ -1072,7 +1077,6 @@
       "label": "Text",
       "config": {
         "text": "<p style=\"text-align: left;\"><strong style=\"color: rgb(0, 68, 69); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Demolition and Stabilization Tracker</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1092,16 +1096,17 @@
         "resultMaxNumber": 6,
         "datasourceConfig": [
           {
-            "configId": "config_0",
+            "configId": "config_1",
             "icon": null,
-            "label": "ArcGIS World Geocoding Service",
+            "label": "CoD Base Units Geocoder",
+            "hint": "Find address",
             "useUtility": {
-              "utilityId": "utility_2"
+              "utilityId": "utility_3"
             },
             "searchServiceType": "GeocodeService",
             "singleLineFieldName": "SingleLine",
             "isSupportSuggest": true,
-            "outputDataSourceId": "widget_5_output_config_0",
+            "outputDataSourceId": "widget_5_output_config_1",
             "addressFields": [
               {
                 "jimuName": "Default Address",
@@ -1184,11 +1189,11 @@
       },
       "id": "widget_5",
       "outputDataSources": [
-        "widget_5_output_config_0"
+        "widget_5_output_config_1"
       ],
       "useUtilities": [
         {
-          "utilityId": "utility_2"
+          "utilityId": "utility_3"
         }
       ],
       "useDataSources": []
@@ -2373,16 +2378,11 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_14/1685561158181.png",
-            "originalUrl": "${appResourceUrl}/images/widget_14/1685561158181.png",
-            "fileName": "1685561158181.png",
-            "originalName": "Logo-200px.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1685561158181",
-            "isUseCompress": false,
-            "originalWidth": 189,
-            "originalHeight": 200,
+            "url": "https://detroitmi.gov/themes/custom/detroitmi/share-image.png",
+            "originalUrl": "https://detroitmi.gov/themes/custom/detroitmi/share-image.png",
+            "fileName": "share-image.png",
+            "originalName": "share-image.png",
+            "imgSourceType": "BY_URL",
             "cropParam": {
               "svgViewBox": "0 0 16 16",
               "svgPath": "M0 0h16v16H0V0Z",
@@ -2404,7 +2404,6 @@
       "label": "Text 2",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--dark-800); font-size: 20px;\">Demolition and Stabilization Tracker</strong></p>",
-        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2417,8 +2416,7 @@
       "version": "1.11.0",
       "label": "Text 3",
       "config": {
-        "text": "<p style=\"line-height: 1; text-align: center;\"><span style=\"font-family: Calibri, sans-serif; font-size: 13px;\">Welcome to the Demo Tracker by the Demolition Department! </span></p><p style=\"line-height: 1; text-align: center;\"><br></p><p style=\"line-height: 1; text-align: center;\"><span style=\"font-family: Calibri, sans-serif; font-size: 13px;\">Discover information about demolitions and stabilizations happening near a specific address and its vicinity. </span></p><p style=\"line-height: 1; text-align: center;\"><br></p><p style=\"line-height: 1; text-align: center;\"><span style=\"font-family: Calibri, sans-serif; font-size: 13px;\">If you're unsure of the address, you can utilize these search methods: select \"Find address or place\" in the search box or click anywhere on the map. Use “Area” the button to navigate to specific districts or neighborhoods. </span></p><p style=\"line-height: 1; text-align: center;\"><br></p><p style=\"line-height: 1; text-align: center;\"><span style=\"font-family: Calibri, sans-serif; font-size: 13px;\">To minimize the demo progress on the map, click the “Type” button to deselect them individually. To see the demolition type key, click on the green button on the right side of the map. Note that the key will only be shown at a zoomed in map level.</span></p><p style=\"line-height: 1; text-align: center;\"><br></p><p style=\"line-height: 1; text-align: center;\"><span style=\"background-color: rgba(0, 0, 0, 0); font-family: Calibri, sans-serif; font-size: 13px;\">For printing a property list, simply click the Print button located at the top left corner of the map. </span><span style=\"font-size: 12px; color: var(--dark-800);\">﻿</span></p>",
-        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "text": "<p style=\"text-align: center;\">Welcome to the Demo Tracker by the Demolition Department! Discover information about demolitions and stabilizations happening near a specific address and its vicinity. If you're unsure of the address, you can utilize these search methods: select \"Find address or place\" in the search box or click anywhere on the map. Use “Area” the button to navigate to specific districts or neighborhoods. To minimize the demo progress on the map, click the “Type” button to deselect them individually. </p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">For printing a property list, simply click the Toggle Screenshot button located at the top left corner of the map.</p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2431,8 +2429,7 @@
       "version": "1.11.0",
       "label": "Text 4",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 15px;\">City of Detroit</span></p>",
-        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">City of Detroit</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2761,8 +2758,8 @@
       "sizeMode": {
         "LARGE": {
           "position": "CENTER",
-          "width": "492px",
-          "height": "444px"
+          "width": "809px",
+          "height": "578px"
         },
         "SMALL": {
           "position": "CENTER",
@@ -2826,15 +2823,15 @@
       "itemId": "067b6f0713774697bf7ec8808e96eedf",
       "portalUrl": "https://detroitmi.maps.arcgis.com"
     },
-    "widget_5_output_config_0": {
-      "id": "widget_5_output_config_0",
+    "widget_5_output_config_1": {
+      "id": "widget_5_output_config_1",
       "type": "FEATURE_LAYER",
-      "label": "ArcGIS World Geocoding Service",
+      "label": "CoD Base Units Geocoder",
       "originDataSources": [],
       "isOutputFromWidget": true,
       "isDataInDataSourceInstance": false,
       "schema": {
-        "label": "ArcGIS World Geocoding Service",
+        "label": "CoD Base Units Geocoder",
         "idField": "objectid",
         "fields": {
           "Default Address": {
@@ -3056,10 +3053,22 @@
           "useDataSources": []
         }
       ]
+    },
+    "messageConfig_3": {
+      "id": "messageConfig_3",
+      "widgetId": "widget_1",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": []
     }
   },
   "attributes": {
-    "portalUrl": "https://detroitmi.maps.arcgis.com"
+    "portalUrl": "https://detroitmi.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Demolition Tracker test 2",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {},
@@ -3093,7 +3102,7 @@
       "LARGE": 75
     }
   },
-  "timestamp": 1687787371448,
+  "timestamp": 1692038966881,
   "customTheme": {
     "colors": {
       "primary": "#004445"
@@ -3121,6 +3130,21 @@
       },
       "taskName": "ArcGIS World Geocoding Service",
       "index": 3
+    },
+    "utility_3": {
+      "id": "utility_3",
+      "type": null,
+      "name": "geocode",
+      "url": "https://opengis.detroitmi.gov/opengis/rest/services/BaseUnits/BaseUnitGeocoder/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "name": "CoD Base Units Geocoder",
+        "placeholder": "Find address",
+        "placefinding": true,
+        "batch": true
+      },
+      "taskName": "CoD Base Units Geocoder",
+      "index": 0
     }
   }
 }
