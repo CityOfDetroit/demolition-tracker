@@ -24,10 +24,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "10.7%",
-            "bottom": "0.0%",
+            "top": "13.8%",
+            "bottom": "-0.0%",
             "width": "100.0%",
-            "height": "89.3%"
+            "height": "86.2%"
           },
           "widgetId": "widget_1",
           "setting": {
@@ -59,9 +59,9 @@
             "left": "0.0%",
             "right": "0.0%",
             "top": "0.0%",
-            "bottom": "89.4%",
+            "bottom": "86.2%",
             "width": "100.0%",
-            "height": "10.6%"
+            "height": "13.8%"
           },
           "widgetId": "widget_2",
           "isPending": false
@@ -140,11 +140,11 @@
         "2": {
           "type": "WIDGET",
           "bbox": {
-            "left": "37.5%",
+            "left": "82.0%",
             "right": "0.0%",
             "top": "4.9%",
             "bottom": "6.2%",
-            "width": "62.5%",
+            "width": "18.0%",
             "height": "88.9%"
           },
           "widgetId": "widget_25",
@@ -170,10 +170,10 @@
           "type": "WIDGET",
           "bbox": {
             "left": "2.0%",
-            "right": "82.4%",
+            "right": "53.5%",
             "top": "26.4%",
             "bottom": "26.6%",
-            "width": "15.6%",
+            "width": "44.5%",
             "height": "47.0%"
           },
           "widgetId": "widget_5",
@@ -194,8 +194,8 @@
           "setting": {
             "style": {},
             "autoProps": {
-              "left": false,
-              "right": true,
+              "left": true,
+              "right": false,
               "top": true,
               "bottom": false
             },
@@ -203,11 +203,11 @@
             "hCenter": false
           },
           "bbox": {
-            "left": "16.6%",
-            "right": "63.4%",
-            "top": "5.7%",
-            "bottom": "5.3%",
-            "width": "20.0%",
+            "left": "47.7%",
+            "right": "4.3%",
+            "top": "6.4%",
+            "bottom": "4.5%",
+            "width": "48.0%",
             "height": "89.1%"
           },
           "widgetId": "widget_11",
@@ -314,7 +314,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_23",
+          "widgetId": "widget_17",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -1077,7 +1077,6 @@
       "label": "Text",
       "config": {
         "text": "<p style=\"text-align: left;\"><strong style=\"color: rgb(0, 68, 69); font-size: 20px; font-family: &quot;Avenir Next&quot;;\">Demolition and Stabilization Tracker</strong></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1236,7 +1235,7 @@
             "labelGrowth": 10,
             "avatar": {
               "type": "primary",
-              "size": "default",
+              "size": "lg",
               "shape": "circle"
             },
             "variant": {
@@ -1607,16 +1606,11 @@
           "linkParam": {},
           "scale": "Fit",
           "imageParam": {
-            "url": "${appResourceUrl}/images/widget_14/1685561158181.png",
-            "originalUrl": "${appResourceUrl}/images/widget_14/1685561158181.png",
-            "fileName": "1685561158181.png",
-            "originalName": "Logo-200px.png",
-            "imgSourceType": "BY_UPLOAD",
-            "fileFormat": "image/png",
-            "originalId": "1685561158181",
-            "isUseCompress": false,
-            "originalWidth": 189,
-            "originalHeight": 200,
+            "url": "https://detroitmi.gov/themes/custom/detroitmi/share-image.png",
+            "originalUrl": "https://detroitmi.gov/themes/custom/detroitmi/share-image.png",
+            "fileName": "share-image.png",
+            "originalName": "share-image.png",
+            "imgSourceType": "BY_URL",
             "cropParam": {
               "svgViewBox": "0 0 16 16",
               "svgPath": "M0 0h16v16H0V0Z",
@@ -2180,6 +2174,174 @@
             ],
             "customTextElementEnableList": [],
             "enableNorthArrow": false
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "customTextElements": [],
+              "elementOverrides": {
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": false
+                }
+              }
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "A3 Landscape",
+            "layout": "A3 Landscape",
+            "format": "pdf",
+            "templateId": "config_custom_9",
+            "mapFrameSize": [
+              40,
+              21.17
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "customTextElements": [],
+              "elementOverrides": {
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": false
+                }
+              }
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "A3 Landscape",
+            "layout": "A4 Landscape",
+            "format": "pdf",
+            "templateId": "config_custom_10",
+            "mapFrameSize": [
+              27.76,
+              15.92
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": true
+          },
+          {
+            "scalePreserved": false,
+            "outScale": 36978595.474472,
+            "layoutOptions": {
+              "titleText": "ArcGIS Web Map",
+              "legend": false,
+              "scalebarUnit": "Miles",
+              "customTextElements": [],
+              "elementOverrides": {
+                "North Arrow": {
+                  "name": "North Arrow",
+                  "type": "CIMMarkerNorthArrow",
+                  "visible": false
+                }
+              }
+            },
+            "exportOptions": {
+              "dpi": 96
+            },
+            "printExtentType": "CURRENT MAP EXTENT",
+            "attributionVisible": false,
+            "forceFeatureAttributes": true,
+            "wkid": 102100,
+            "wkidLabel": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+            "enableTitle": true,
+            "legendEnabled": true,
+            "enableMapPrintExtents": true,
+            "enableOutputSpatialReference": true,
+            "enableQuality": true,
+            "enableFeatureAttribution": true,
+            "enableMapSize": true,
+            "overrideCommonSetting": false,
+            "enableAuthor": true,
+            "enableCopyright": true,
+            "enableLegend": true,
+            "enableScalebarUnit": true,
+            "enableCustomTextElements": true,
+            "label": "TEST",
+            "layout": "A3 Landscape",
+            "format": "pdf",
+            "templateId": "config_custom_11",
+            "mapFrameSize": [
+              40,
+              21.17
+            ],
+            "mapFrameUnit": "CENTIMETER",
+            "hasAuthorText": true,
+            "hasCopyrightText": true,
+            "hasLegend": true,
+            "hasTitleText": true,
+            "selectedFormatList": [
+              "png32"
+            ],
+            "customTextElementEnableList": [],
+            "enableNorthArrow": false
           }
         ],
         "useUtility": {
@@ -2405,7 +2567,6 @@
       "label": "Text 2",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"color: var(--dark-800); font-size: 20px;\">Demolition and Stabilization Tracker</strong></p>",
-        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2419,7 +2580,6 @@
       "label": "Text 3",
       "config": {
         "text": "<p style=\"text-align: center;\">Welcome to the Demo Tracker by the Demolition Department! Discover information about demolitions and stabilizations happening near a specific address and its vicinity. If you're unsure of the address, you can utilize these search methods: select \"Find address or place\" in the search box or click anywhere on the map. Use “Area” the button to navigate to specific districts or neighborhoods. To minimize the demo progress on the map, click the “Type” button to deselect them individually. </p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">For printing a property list, simply click the Toggle Screenshot button located at the top left corner of the map.</p>",
-        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -2433,7 +2593,6 @@
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">City of Detroit</strong></p>",
-        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -3063,10 +3222,46 @@
       "widgetId": "widget_1",
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
       "actions": []
+    },
+    "messageConfig_4": {
+      "id": "messageConfig_4",
+      "widgetId": "widget_5",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_1-zoomToFeature-1692209704832",
+          "widgetId": "widget_1",
+          "messageWidgetId": "widget_5",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "widget_5_output_config_1",
+              "mainDataSourceId": "widget_5_output_config_1",
+              "rootDataSourceId": null
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "widget_5_output_config_1",
+                "mainDataSourceId": "widget_5_output_config_1",
+                "rootDataSourceId": null
+              }
+            ]
+          },
+          "version": "1.11.0",
+          "useDataSources": []
+        }
+      ]
     }
   },
   "attributes": {
-    "portalUrl": "https://detroitmi.maps.arcgis.com"
+    "portalUrl": "https://detroitmi.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Demolition Tracker test 2",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {},
@@ -3088,7 +3283,7 @@
       "SMALL": "layout_19"
     },
     "height": {
-      "LARGE": 86
+      "LARGE": "70px"
     },
     "backgroundColor": "var(--light)"
   },
@@ -3100,7 +3295,7 @@
       "LARGE": 75
     }
   },
-  "timestamp": 1692038966881,
+  "timestamp": 1692304197209,
   "customTheme": {
     "colors": {
       "primary": "#004445"
